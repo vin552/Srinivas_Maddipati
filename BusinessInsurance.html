@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap-3.1.1-dist/css/bootstrap.css">
+    <title></title>
+</head>
+<body>
+<div class="container">
+<div class="row">
+    <a href="Index.html" style="background-color:white;"><img src="images/logo.jpg" style={float:left} /></a>
+</div>
+<div class="row" style="background-color:rgba(0, 0, 0, 0.18)" >
+
+    <ul class="nav nav-pills">
+        <li class="active" style="color:black"><a href="Index.html">Home</a></li>
+        <li><a href="HealthInsurance.html">Health Insurance</a></li>
+        <li><a href="LifeInsurance.html">Life Insurance</a></li>
+        <li><a href="MotorInsurance.html">Motor Insurance</a></li>
+        <li><a href="TravelInsurance.html">Travel Insurance</a></li>
+        <li><a href="BusinessInsurance.html">Business Insurance</a></li>
+        <li><a href="RuralInsurance.html">Rural Insurance</a></li>
+        <li><a href="MicroInsurance.html">Micro Insurance</a></li>
+    </ul>
+</div>
+<div class="row" style=" background-color: rgba(0, 0, 0, 0.10);">
+    <marquee id="marquee" onMouseOver="this.scrollAmount=0" onMouseOut="this.scrollAmount=5">
+        <img src="images/banner1.jpg"/><img src="images/banner2.jpg"/><img src="images/banner3.jpg"/><img src="images/healthInsuranceBanner.jpg"/><img src="images/terminsuranceBanner.jpg"/>
+    </marquee>
+</div>
+<div class="row">
+<div class="col-md-1" style="inset:-1px 1px 1px #444;"></div>
+<div class="col-md-10" style="inset:-1px 1px 1px #444;padding-bottom:10px"><br>
+
+<div class="row" style="border-bottom: 5px solid rgba(0, 0, 0, 0.10);">
+    <h2>Business Insurance</h2>
+</div><br><br>
+<div class="row" style="padding:20px 20px 20px 20px;border:2px solid rgba(0,0,0,0.10);">
+    <table>
+        <tr> <td style="padding-bottom:5px"><h3>Coverage Details</h3></td></tr>
+        <tr>
+            <td colspan="3">
+                <b>Who do you want to Insure ?</b><br/>
+                <select name="" style="width:190px;">
+                    <option selected="selected" value="1" title="Choose Self if you want to insure only one individual.">Self</option>
+                    <option value="2" title="Choose this if you want to insure yourself and your spouse in the policy.">Self + Spouse</option>
+                    <option value="3" title="Choose this if you want to include your spouse and children with you in the policy.">Self + Spouse + Children</option>
+                    <option value="4" title="Choose this if you want to include only your dependent children with you.">Self + Children</option>
+                    <option value="5" title="Choose this if you want to take insurance cover for your dependent mother/father.">Parents</option>
+
+                </select>
+            </td>
+
+            <td style="padding-left:100px">
+
+                <b>Sum Insured</b><br/>
+                <select name=""  style="width:110px;">
+                    <option value="0">Select</option>
+                    <option value="9">50,000</option>
+                    <option value="1">  1,00,000</option>
+                    <option selected="selected" value="2">  2,00,000</option>
+                    <option value="3">  3,00,000</option>
+                    <option value="4">  4,00,000</option>
+                    <option value="5">  5,00,000</option>
+                    <option value="21">6,00,000</option>
+                    <option value="17">7,00,000</option>
+                    <option value="22">8,00,000</option>
+                    <option value="28">9,00,000</option>
+                    <option value="6">10,00,000</option>
+                    <option value="18">15,00,000</option>
+                    <option value="19">20,00,000</option>
+                    <option value="35">25,00,000</option>
+                    <option value="20">50,00,000</option>
+                    <option value="36">60,00,000</option>
+
+                </select>
+
+            </td>
+
+            <td style="padding-left:100px">
+                <b>Date Of Birth</b><br/>
+                <select name="" style="color:Gray;width:55px;">
+                    <option value="0">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+
+                </select>
+                -
+                <select style="color:Gray;width:70px;">
+
+                    <option value="0">Month</option>
+                    <option value="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option value="3">Mar</option>
+                    <option value="4">Apr</option>
+                    <option value="5">May</option>
+
+                    <option value="6">Jun</option>
+                    <option value="7">Jul</option>
+                    <option value="8">Aug</option>
+                    <option value="9">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+
+                    <option value="12">Dec</option>
+
+                </select>
+                -
+                <select style="color:Gray;width:60px;">
+                    <option value="0000">Year</option>
+                    <option value="1930">1930</option>
+                    <option value="1931">1931</option>
+
+                    <option value="1932">1932</option>
+                    <option value="1933">1933</option>
+                    <option value="1934">1934</option>
+                    <option value="1935">1935</option>
+                    <option value="1936">1936</option>
+                    <option value="1937">1937</option>
+
+                    <option value="1938">1938</option>
+                    <option value="1939">1939</option>
+                    <option value="1940">1940</option>
+                    <option value="1941">1941</option>
+                    <option value="1942">1942</option>
+                    <option value="1943">1943</option>
+
+                    <option value="1944">1944</option>
+                    <option value="1945">1945</option>
+                    <option value="1946">1946</option>
+                    <option value="1947">1947</option>
+                    <option value="1948">1948</option>
+                    <option value="1949">1949</option>
+
+                    <option value="1950">1950</option>
+                    <option value="1951">1951</option>
+                    <option value="1952">1952</option>
+                    <option value="1953">1953</option>
+                    <option value="1954">1954</option>
+                    <option value="1955">1955</option>
+
+                    <option value="1956">1956</option>
+                    <option value="1957">1957</option>
+                    <option value="1958">1958</option>
+                    <option value="1959">1959</option>
+                    <option value="1960">1960</option>
+                    <option value="1961">1961</option>
+
+                    <option value="1962">1962</option>
+                    <option value="1963">1963</option>
+                    <option value="1964">1964</option>
+                    <option value="1965">1965</option>
+                    <option value="1966">1966</option>
+                    <option value="1967">1967</option>
+
+                    <option value="1968">1968</option>
+                    <option value="1969">1969</option>
+                    <option value="1970">1970</option>
+                    <option value="1971">1971</option>
+                    <option value="1972">1972</option>
+                    <option value="1973">1973</option>
+
+                    <option value="1974">1974</option>
+                    <option value="1975">1975</option>
+                    <option value="1976">1976</option>
+                    <option value="1977">1977</option>
+                    <option value="1978">1978</option>
+                    <option value="1979">1979</option>
+
+                    <option value="1980">1980</option>
+                    <option value="1981">1981</option>
+                    <option value="1982">1982</option>
+                    <option value="1983">1983</option>
+                    <option value="1984">1984</option>
+                    <option value="1985">1985</option>
+
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                    <option value="1989">1989</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+
+                </select>
+
+            </td>
+        </tr>
+    </table>
+</div>
+<br><br>
+
+<div class="row" style="padding:20px 20px 20px 20px;border:2px solid rgba(0,0,0,0.10);">
+
+<table>
+<tr> <td style="padding-bottom:5px"><h3>Personal Details</h3></td></tr>
+<tr>
+    <td>
+        <label>Name</label><br/>
+        <input type="text"  id="name" class="form-control" placeholder="Enter Name"/>
+    </td>
+    <td style="padding-left:100px">
+        <label>Gender</label><br/>
+        <input type="radio" value="option1" name="gender"/>Male
+        <input type="radio" value="option2" name="gender"/>Female
+    </td>
+</tr>
+<tr>
+<td style="padding-top:20px">
+    <label>E-mail</label><br/>
+    <input type="text"  id="email" class="form-control" placeholder="Your Mail ID"/>
+</td>
+<td colspan=2 style="padding-top:20px;padding-left:100px">
+    <label>Mobile Number</label><br/>
+    <input type="text"  id="mobile" class="form-control" placeholder="Enter Number"/>
+</td>
+<td style="padding-top:20px;padding-left:100px">
+<label>Location</label><br/>
+
+<select style="width:210px;">
+<option selected="selected" value="0,0">Choose City</option>
+<option value="1,2">Car Nicobar , Andaman &amp; Nicobar</option>
+
+<option value="1,1">Port Blair , Andaman &amp; Nicobar</option>
+<option value="2,3">Adilabad , Andhra Pradesh</option>
+<option value="2,5">Adoni , Andhra Pradesh</option>
+<option value="2,6">Amalapuram , Andhra Pradesh</option>
+<option value="2,7">Anakapalli , Andhra Pradesh</option>
+
+<option value="2,4">Anantapur , Andhra Pradesh</option>
+<option value="2,10">Bahadurpura , Andhra Pradesh</option>
+<option value="2,9">Bhimavaram , Andhra Pradesh</option>
+<option value="2,8">Bhongir , Andhra Pradesh</option>
+<option value="2,12">Chirala , Andhra Pradesh</option>
+<option value="2,11">Chittoor , Andhra Pradesh</option>
+
+<option value="2,13">Eluru , Andhra Pradesh</option>
+<option value="2,16">Gadwal , Andhra Pradesh</option>
+<option value="2,18">Gajuwaka , Andhra Pradesh</option>
+<option value="2,15">Gudivada , Andhra Pradesh</option>
+<option value="2,17">Gudur , Andhra Pradesh</option>
+<option value="2,14">Guntur , Andhra Pradesh</option>
+
+<option value="2,19">Hindupur , Andhra Pradesh</option>
+<option value="2,904">Hyderabad , Andhra Pradesh</option>
+<option value="2,21">Jagtial , Andhra Pradesh</option>
+<option value="2,20">Jangaon , Andhra Pradesh</option>
+<option value="2,22">Jangareddygudem , Andhra Pradesh</option>
+<option value="2,29">kadapa , Andhra Pradesh</option>
+
+<option value="2,28">Kakinada , Andhra Pradesh</option>
+<option value="2,31">Kamareddy , Andhra Pradesh</option>
+<option value="2,26">Karimnagar , Andhra Pradesh</option>
+<option value="2,30">Kavali , Andhra Pradesh</option>
+<option value="2,27">Khairtabad &#160; , Andhra Pradesh</option>
+
+<option value="2,24">Khammam &#160; , Andhra Pradesh</option>
+<option value="2,25">Kothagudem &#160; , Andhra Pradesh</option>
+<option value="2,23">Kovvur , Andhra Pradesh</option>
+<option value="2,32">Kurnool , Andhra Pradesh</option>
+<option value="2,39">Machilipatnam , Andhra Pradesh</option>
+
+<option value="2,36">Madanapalle &#160; , Andhra Pradesh</option>
+<option value="2,40">Mahaboobnagar , Andhra Pradesh</option>
+<option value="2,38">Malakpet , Andhra Pradesh</option>
+<option value="2,35">Mancherial , Andhra Pradesh</option>
+<option value="2,34">Markapur , Andhra Pradesh</option>
+
+<option value="2,33">Medak &#160; , Andhra Pradesh</option>
+<option value="2,37">Mehdipatnam , Andhra Pradesh</option>
+<option value="2,46">Nalgonda , Andhra Pradesh</option>
+<option value="2,45">Nandigama , Andhra Pradesh</option>
+<option value="2,41">Nandyal , Andhra Pradesh</option>
+
+<option value="2,44">Narasaraopet , Andhra Pradesh</option>
+<option value="2,48">Nellore , Andhra Pradesh</option>
+<option value="2,43">Nirmal , Andhra Pradesh</option>
+<option value="2,47">Nizamabad , Andhra Pradesh</option>
+<option value="2,42">Nuzvid &#160; , Andhra Pradesh</option>
+
+<option value="2,49">Ongole , Andhra Pradesh</option>
+<option value="2,51">palasa , Andhra Pradesh</option>
+<option value="2,55">Pebbair , Andhra Pradesh</option>
+<option value="2,54">Peddapalli , Andhra Pradesh</option>
+<option value="2,53">Piduguralla , Andhra Pradesh</option>
+<option value="2,50">Prakasam , Andhra Pradesh</option>
+
+<option value="2,52">Proddatur , Andhra Pradesh</option>
+<option value="2,58">Rajahmundry , Andhra Pradesh</option>
+<option value="2,57">Rangareddy , Andhra Pradesh</option>
+<option value="2,56">Repalle , Andhra Pradesh</option>
+<option value="2,60">Sangareddy &#160; , Andhra Pradesh</option>
+
+<option value="2,64">Sathupally , Andhra Pradesh</option>
+<option value="2,63">Secunderabad , Andhra Pradesh</option>
+<option value="2,61">Siddipet &#160; , Andhra Pradesh</option>
+<option value="2,65">Srikakulam , Andhra Pradesh</option>
+<option value="2,59">Sullurpeta , Andhra Pradesh</option>
+
+<option value="2,62">Suryapet , Andhra Pradesh</option>
+<option value="2,69">Tadepalligudem &#160; , Andhra Pradesh</option>
+<option value="2,70">Tanuku , Andhra Pradesh</option>
+<option value="2,67">Tekkali , Andhra Pradesh</option>
+<option value="2,66">Tenali , Andhra Pradesh</option>
+
+<option value="2,68">Tirupathi , Andhra Pradesh</option>
+<option value="2,71">Vijayawada &#160; , Andhra Pradesh</option>
+<option value="2,72">Visakhapatnam , Andhra Pradesh</option>
+<option value="2,73">Vizianagaram , Andhra Pradesh</option>
+<option value="2,74">Warangal , Andhra Pradesh</option>
+
+<option value="2,75">Yellandu , Andhra Pradesh</option>
+<option value="3,82">Along , Arunachal Pradesh</option>
+<option value="3,84">Anini , Arunachal Pradesh</option>
+<option value="3,78">Bomdila , Arunachal Pradesh</option>
+<option value="3,86">Changlang , Arunachal Pradesh</option>
+<option value="3,81">Daporijo , Arunachal Pradesh</option>
+
+<option value="3,76">Itanagar , Arunachal Pradesh</option>
+<option value="3,87">Khonsa , Arunachal Pradesh</option>
+<option value="3,83">Pasighat , Arunachal Pradesh</option>
+<option value="3,79">Seppa , Arunachal Pradesh</option>
+<option value="3,77">Tawang , Arunachal Pradesh</option>
+<option value="3,85">Tezu , Arunachal Pradesh</option>
+
+<option value="3,88">Yingkiong , Arunachal Pradesh</option>
+<option value="3,80">Ziro , Arunachal Pradesh</option>
+<option value="4,103">Barpeta , Assam</option>
+<option value="4,107">Bongaigaon , Assam</option>
+<option value="4,99">Cachar , Assam</option>
+<option value="4,101">Darrang , Assam</option>
+
+<option value="4,109">Dhemaji , Assam</option>
+<option value="4,105">Dhubri , Assam</option>
+<option value="4,95">Dibrugarh , Assam</option>
+<option value="4,106">Goalpara , Assam</option>
+<option value="4,112">Gohpur , Assam</option>
+<option value="4,94">Golaghat , Assam</option>
+
+<option value="4,89">Guwahati , Assam</option>
+<option value="4,111">Hailakandi , Assam</option>
+<option value="4,92">Jorhat , Assam</option>
+<option value="4,90">Kamrup , Assam</option>
+<option value="4,97">Karbi Anglong , Assam</option>
+<option value="4,98">Karimganj , Assam</option>
+
+<option value="4,104">Kokrajhar , Assam</option>
+<option value="4,108">Marigaon , Assam</option>
+<option value="4,91">Nagaon , Assam</option>
+<option value="4,102">Nalbari , Assam</option>
+<option value="4,96">North Cachar Hills , Assam</option>
+<option value="4,93">Sibsagar , Assam</option>
+
+<option value="4,100">Sonitpur , Assam</option>
+<option value="4,110">Tinsukia , Assam</option>
+<option value="5,140">Araria , Bihar</option>
+<option value="5,121">Begusarai , Bihar</option>
+<option value="5,128">Bettiah , Bihar</option>
+<option value="5,144">Bhabua , Bihar</option>
+
+<option value="5,122">Bhagalpur , Bihar</option>
+<option value="5,115">Bhojpur , Bihar</option>
+<option value="5,124">Bilaspur , Bihar</option>
+<option value="5,143">Buxar , Bihar</option>
+<option value="5,125">Chaibasa , Bihar</option>
+<option value="5,116">Chapra , Bihar</option>
+
+<option value="5,119">Darbhanga , Bihar</option>
+<option value="5,130">Dehri , Bihar</option>
+<option value="5,114">Gaya , Bihar</option>
+<option value="5,129">Giridih , Bihar</option>
+<option value="5,132">Gopalganj , Bihar</option>
+<option value="5,145">Jamui , Bihar</option>
+
+<option value="5,141">Katihar , Bihar</option>
+<option value="5,138">Khagaria , Bihar</option>
+<option value="5,139">Kishanganj , Bihar</option>
+<option value="5,146">Koderma , Bihar</option>
+<option value="5,148">Lakhisarai , Bihar</option>
+<option value="5,142">Madhepura , Bihar</option>
+
+<option value="5,136">Madhubani , Bihar</option>
+<option value="5,117">Motihari , Bihar</option>
+<option value="5,120">Munger , Bihar</option>
+<option value="5,118">Muzaffarpur , Bihar</option>
+<option value="5,127">Nalanda , Bihar</option>
+<option value="5,131">Nawada , Bihar</option>
+
+<option value="5,113">Patna , Bihar</option>
+<option value="5,123">Purnea , Bihar</option>
+<option value="5,126">Saharsa , Bihar</option>
+<option value="5,137">Samastipur , Bihar</option>
+<option value="5,134">Sitamarhi , Bihar</option>
+<option value="5,133">Siwan , Bihar</option>
+
+<option value="5,147">Supaul , Bihar</option>
+<option value="5,135">Vaishali district , Bihar</option>
+<option value="6,149">Chandigarh , Chandigarh</option>
+<option value="6,150">Manimajra , Chandigarh</option>
+<option value="7,162">Ambikapur , Chhattisgarh</option>
+<option value="7,163">Baikunthpur , Chhattisgarh</option>
+
+<option value="7,157">Bilaspur , Chhattisgarh</option>
+<option value="7,165">Dantewada , Chhattisgarh</option>
+<option value="7,152">Dhamtari , Chhattisgarh</option>
+<option value="7,154">Durg , Chhattisgarh</option>
+<option value="7,164">Jagdalpur , Chhattisgarh</option>
+<option value="7,158">Janjgir-Champa , Chhattisgarh</option>
+
+<option value="7,161">Jashpur , Chhattisgarh</option>
+<option value="7,166">Kanker , Chhattisgarh</option>
+<option value="7,156">Kawardha , Chhattisgarh</option>
+<option value="7,159">Korba , Chhattisgarh</option>
+<option value="7,153">Mahasamund , Chhattisgarh</option>
+<option value="7,160">Raigarh , Chhattisgarh</option>
+
+<option value="7,151">Raipur , Chhattisgarh</option>
+<option value="7,155">Rajnandgaon , Chhattisgarh</option>
+<option value="8,167">Amli , Dadra &amp; Nagar Haveli</option>
+<option value="8,168">Dadra , Dadra &amp; Nagar Haveli</option>
+<option value="8,169">Silvassa , Dadra &amp; Nagar Haveli</option>
+
+<option value="9,170">Daman , Daman &amp; Diu</option>
+<option value="9,171">Diu , Daman &amp; Diu</option>
+<option value="10,172">Delhi , Delhi</option>
+<option value="11,174">Bicholim , Goa</option>
+<option value="11,173">Mapusa , Goa</option>
+
+<option value="11,178">Margao , Goa</option>
+<option value="11,177">Panaji , Goa</option>
+<option value="11,175">Ponda , Goa</option>
+<option value="11,179">Quepem , Goa</option>
+<option value="11,176">Vasco , Goa</option>
+<option value="12,180">Ahmedabad , Gujarat</option>
+
+<option value="12,193">Amreli , Gujarat</option>
+<option value="12,202">Anand , Gujarat</option>
+<option value="12,187">Banaskantha , Gujarat</option>
+<option value="12,198">Bardoli , Gujarat</option>
+<option value="12,195">Bharuch , Gujarat</option>
+<option value="12,183">Bhavnagar , Gujarat</option>
+
+<option value="12,191">Bhuj-Kutch , Gujarat</option>
+<option value="12,199">Dahod , Gujarat</option>
+<option value="12,197">Gandhinagar , Gujarat</option>
+<option value="12,196">Godhra , Gujarat</option>
+<option value="12,189">Jamnagar , Gujarat</option>
+<option value="12,190">Junagadh , Gujarat</option>
+
+<option value="12,186">Kheda , Gujarat</option>
+<option value="12,181">Mehsana , Gujarat</option>
+<option value="12,201">Narmada , Gujarat</option>
+<option value="12,200">Navsari , Gujarat</option>
+<option value="12,203">Patan , Gujarat</option>
+<option value="12,204">Porbandar , Gujarat</option>
+
+<option value="12,182">Rajkot , Gujarat</option>
+<option value="12,188">Sabarkantha , Gujarat</option>
+<option value="12,184">Surat , Gujarat</option>
+<option value="12,192">Surendranagar , Gujarat</option>
+<option value="12,205">Tapi , Gujarat</option>
+<option value="12,185">Vadodara , Gujarat</option>
+
+<option value="12,194">Valsad , Gujarat</option>
+<option value="13,251">Adampur , Haryana</option>
+<option value="13,206">Ambala , Haryana</option>
+<option value="13,243">Assandh , Haryana</option>
+<option value="13,218">Bahadurgarh , Haryana</option>
+<option value="13,234">Ballabgarh , Haryana</option>
+
+<option value="13,221">Bhiwani , Haryana</option>
+<option value="13,224">Charkhi Dadri , Haryana</option>
+<option value="13,230">Dabwali , Haryana</option>
+<option value="13,247">Ellenabad , Haryana</option>
+<option value="13,242">Faridabad , Haryana</option>
+<option value="13,227">Fatehabad , Haryana</option>
+
+<option value="13,233">Ferozepur Jhirka , Haryana</option>
+<option value="13,245">Ganaur , Haryana</option>
+<option value="13,216">Gohana , Haryana</option>
+<option value="13,214">Gulah , Haryana</option>
+<option value="13,231">Gurgaon , Haryana</option>
+<option value="13,226">Hansi , Haryana</option>
+
+<option value="13,225">Hisar , Haryana</option>
+<option value="13,250">Hodal , Haryana</option>
+<option value="13,207">Jagadhri , Haryana</option>
+<option value="13,219">Jhajjar , Haryana</option>
+<option value="13,236">Jind , Haryana</option>
+<option value="13,213">Kaithal , Haryana</option>
+
+<option value="13,249">Kalka , Haryana</option>
+<option value="13,210">Karnal , Haryana</option>
+<option value="13,246">Kosli , Haryana</option>
+<option value="13,212">Kurukshetra , Haryana</option>
+<option value="13,908">Manesar , Haryana</option>
+<option value="13,220">Meham , Haryana</option>
+
+<option value="13,239">Mohindergarh , Haryana</option>
+<option value="13,209">Naraingarh , Haryana</option>
+<option value="13,240">Narnaul , Haryana</option>
+<option value="13,237">Narwana , Haryana</option>
+<option value="13,232">Nuh , Haryana</option>
+<option value="13,235">Palwal , Haryana</option>
+
+<option value="13,208">Panchkula , Haryana</option>
+<option value="13,211">Panipat , Haryana</option>
+<option value="13,244">Pehowa , Haryana</option>
+<option value="13,241">Rewari , Haryana</option>
+<option value="13,217">Rohtak , Haryana</option>
+<option value="13,238">Safidon , Haryana</option>
+
+<option value="13,223">Sinod , Haryana</option>
+<option value="13,229">Sirsa , Haryana</option>
+<option value="13,222">Siwani , Haryana</option>
+<option value="13,215">Sonepat , Haryana</option>
+<option value="13,248">Tobhama , Haryana</option>
+<option value="13,228">Tohana , Haryana</option>
+
+<option value="14,253">Amb , Himachal Pradesh</option>
+<option value="14,254">Anni , Himachal Pradesh</option>
+<option value="14,252">Arki , Himachal Pradesh</option>
+<option value="14,260">Baijnath , Himachal Pradesh</option>
+<option value="14,256">Banjar , Himachal Pradesh</option>
+<option value="14,255">Barsar , Himachal Pradesh</option>
+
+<option value="14,259">Bharmour , Himachal Pradesh</option>
+<option value="14,258">Bhoranj , Himachal Pradesh</option>
+<option value="14,257">Bilaspur , Himachal Pradesh</option>
+<option value="14,262">Chamba , Himachal Pradesh</option>
+<option value="14,261">Chaupal , Himachal Pradesh</option>
+<option value="14,263">Chowari , Himachal Pradesh</option>
+
+<option value="14,264">Churah , Himachal Pradesh</option>
+<option value="14,267">Dalhousie , Himachal Pradesh</option>
+<option value="14,266">Dehra , Himachal Pradesh</option>
+<option value="14,265">Dharamshala , Himachal Pradesh</option>
+<option value="14,268">DodraKwar , Himachal Pradesh</option>
+<option value="14,269">Ghumarwin , Himachal Pradesh</option>
+
+<option value="14,270">Hamirpur , Himachal Pradesh</option>
+<option value="14,272">Jaisinghpur , Himachal Pradesh</option>
+<option value="14,273">Jawali , Himachal Pradesh</option>
+<option value="14,271">Jogindernagar , Himachal Pradesh</option>
+<option value="14,276">Kalpa , Himachal Pradesh</option>
+<option value="14,274">Kandaghat , Himachal Pradesh</option>
+
+<option value="14,278">Kangra , Himachal Pradesh</option>
+<option value="14,275">Karsog , Himachal Pradesh</option>
+<option value="14,279">Kaza , Himachal Pradesh</option>
+<option value="14,280">Keylong , Himachal Pradesh</option>
+<option value="14,277">Kullu , Himachal Pradesh</option>
+<option value="14,282">Manali , Himachal Pradesh</option>
+
+<option value="14,281">Mandi , Himachal Pradesh</option>
+<option value="14,287">Nadaun , Himachal Pradesh</option>
+<option value="14,285">Nahan , Himachal Pradesh</option>
+<option value="14,283">Nalagarh , Himachal Pradesh</option>
+<option value="14,284">Nichar (Bhaba Nagar) , Himachal Pradesh</option>
+<option value="14,286">Nurpur , Himachal Pradesh</option>
+
+<option value="14,290">Palampur , Himachal Pradesh</option>
+<option value="14,291">Pangi , Himachal Pradesh</option>
+<option value="14,289">Paonta Sahib , Himachal Pradesh</option>
+<option value="14,288">Parwanoo , Himachal Pradesh</option>
+<option value="14,292">Rajgarh , Himachal Pradesh</option>
+<option value="14,295">Rampur Bushar , Himachal Pradesh</option>
+
+<option value="14,293">RLA Pooh , Himachal Pradesh</option>
+<option value="14,294">Rohru , Himachal Pradesh</option>
+<option value="14,298">Sarkaghat , Himachal Pradesh</option>
+<option value="14,299">Shimla , Himachal Pradesh</option>
+<option value="14,296">Solan , Himachal Pradesh</option>
+<option value="14,297">Sundernagar , Himachal Pradesh</option>
+
+<option value="14,300">Theog , Himachal Pradesh</option>
+<option value="14,301">Udaipur , Himachal Pradesh</option>
+<option value="14,302">Una , Himachal Pradesh</option>
+<option value="15,305">Anantnag , Jammu &amp; Kashmir</option>
+<option value="15,307">Baramulla , Jammu &amp; Kashmir</option>
+
+<option value="15,306">Budgam , Jammu &amp; Kashmir</option>
+<option value="15,308">Doda , Jammu &amp; Kashmir</option>
+<option value="15,304">Jammu , Jammu &amp; Kashmir</option>
+<option value="15,309">Kargil , Jammu &amp; Kashmir</option>
+
+<option value="15,310">Kathua , Jammu &amp; Kashmir</option>
+<option value="15,311">Kupwara , Jammu &amp; Kashmir</option>
+<option value="15,312">Leh , Jammu &amp; Kashmir</option>
+<option value="15,314">Poonch , Jammu &amp; Kashmir</option>
+
+<option value="15,315">Pulwama , Jammu &amp; Kashmir</option>
+<option value="15,313">Rajouri , Jammu &amp; Kashmir</option>
+<option value="15,303">Srinagar , Jammu &amp; Kashmir</option>
+<option value="15,316">Udhampur , Jammu &amp; Kashmir</option>
+
+<option value="16,326">Bokaro , Jharkhand</option>
+<option value="16,323">Chaibasa , Jharkhand</option>
+<option value="16,330">Chatra , Jharkhand</option>
+<option value="16,320">Daltonganj , Jharkhand</option>
+<option value="16,332">Deoghar , Jharkhand</option>
+<option value="16,327">Dhanbad , Jharkhand</option>
+
+<option value="16,321">Dumka , Jharkhand</option>
+<option value="16,331">Garhwa , Jharkhand</option>
+<option value="16,328">Giridih , Jharkhand</option>
+<option value="16,334">Godda , Jharkhand</option>
+<option value="16,324">Gumla , Jharkhand</option>
+<option value="16,318">Hazaribagh , Jharkhand</option>
+
+<option value="16,322">Jamshedpur , Jharkhand</option>
+<option value="16,338">Jamtara , Jharkhand</option>
+<option value="16,329">Koderma , Jharkhand</option>
+<option value="16,336">Latehar , Jharkhand</option>
+<option value="16,325">Lohardaga , Jharkhand</option>
+<option value="16,333">Pakur , Jharkhand</option>
+
+<option value="16,319">Ramgarh , Jharkhand</option>
+<option value="16,317">Ranchi , Jharkhand</option>
+<option value="16,335">Sahibganj , Jharkhand</option>
+<option value="16,339">Saraikela-Kharsawan , Jharkhand</option>
+<option value="16,337">Simdega , Jharkhand</option>
+<option value="17,743">Bagalkot , Karnataka</option>
+
+<option value="17,741">Bailhongal , Karnataka</option>
+<option value="17,739">Bangalore , Karnataka</option>
+<option value="17,745">Bannerghatta , Karnataka</option>
+<option value="17,748">Basavakalyan , Karnataka</option>
+<option value="17,740">Belgaum , Karnataka</option>
+<option value="17,744">Bellary , Karnataka</option>
+
+<option value="17,747">Bhalki , Karnataka</option>
+<option value="17,746">Bidar , Karnataka</option>
+<option value="17,742">Bijapur , Karnataka</option>
+<option value="17,749">Chamrajnagar , Karnataka</option>
+<option value="17,752">Chickmagalur , Karnataka</option>
+<option value="17,750">Chikkaballapur , Karnataka</option>
+
+<option value="17,753">Chikkodi , Karnataka</option>
+<option value="17,751">Chitradurga , Karnataka</option>
+<option value="17,754">Davangere , Karnataka</option>
+<option value="17,755">Devanahalli , Karnataka</option>
+<option value="17,756">Dharwad , Karnataka</option>
+<option value="17,757">Gadag , Karnataka</option>
+
+<option value="17,759">Gokak , Karnataka</option>
+<option value="17,758">Gulbarga , Karnataka</option>
+<option value="17,760">Hassan , Karnataka</option>
+<option value="17,761">Haveri , Karnataka</option>
+<option value="17,765">Honnavar , Karnataka</option>
+<option value="17,762">Hospet , Karnataka</option>
+
+<option value="17,764">Hosur , Karnataka</option>
+<option value="17,763">Hunsur , Karnataka</option>
+<option value="17,766">Jamkhandi , Karnataka</option>
+<option value="17,770">K.R. Puram , Karnataka</option>
+<option value="17,769">Karwar , Karnataka</option>
+<option value="17,767">Kolar , Karnataka</option>
+
+<option value="17,768">Koppal , Karnataka</option>
+<option value="17,773">Madikeri , Karnataka</option>
+<option value="17,772">Mandya , Karnataka</option>
+<option value="17,774">Mangalore , Karnataka</option>
+<option value="17,771">Mysore , Karnataka</option>
+<option value="17,776">Nagamangala , Karnataka</option>
+
+<option value="17,775">Nelamangala , Karnataka</option>
+<option value="17,777">Puttur , Karnataka</option>
+<option value="17,778">Raichur , Karnataka</option>
+<option value="17,779">Rajarajeshwari Nagar , Karnataka</option>
+<option value="17,780">Ramanagara , Karnataka</option>
+<option value="17,784">Sagar , Karnataka</option>
+
+<option value="17,782">Sakleshpur , Karnataka</option>
+<option value="17,781">Shimoga , Karnataka</option>
+<option value="17,783">Sirsi , Karnataka</option>
+<option value="17,786">Tiptur , Karnataka</option>
+<option value="17,785">Tumkur , Karnataka</option>
+<option value="17,787">Udupi , Karnataka</option>
+
+<option value="17,788">Uttara Kannada , Karnataka</option>
+<option value="17,789">Yadgir , Karnataka</option>
+<option value="17,790">Yelahanka , Karnataka</option>
+<option value="18,793">Adoor , Kerala</option>
+<option value="18,791">Alappuzha , Kerala</option>
+<option value="18,795">Alathur , Kerala</option>
+
+<option value="18,794">Aluva , Kerala</option>
+<option value="18,792">Attingal , Kerala</option>
+<option value="18,798">Changanassery , Kerala</option>
+<option value="18,796">Chengannur , Kerala</option>
+<option value="18,797">Cherthala , Kerala</option>
+<option value="18,799">Ernakulam , Kerala</option>
+
+<option value="18,800">Guruvayur , Kerala</option>
+<option value="18,836">Idukki , Kerala</option>
+<option value="18,801">Irinjalakuda , Kerala</option>
+<option value="18,815">Kanhangad , Kerala</option>
+<option value="18,810">Kanjirappally , Kerala</option>
+<option value="18,805">Kannur , Kerala</option>
+
+<option value="18,807">Karunagappally , Kerala</option>
+<option value="18,816">kasaragode , Kerala</option>
+<option value="18,809">Kayamkulam , Kerala</option>
+<option value="18,806">Kazhakuttam , Kerala</option>
+<option value="18,905">Kochi , Kerala</option>
+<option value="18,812">Kodungalloor , Kerala</option>
+
+<option value="18,814">Koduvally , Kerala</option>
+<option value="18,802">Kollam , Kerala</option>
+<option value="18,811">Kothamangalam , Kerala</option>
+<option value="18,808">Kottarakara , Kerala</option>
+<option value="18,804">Kottayam , Kerala</option>
+<option value="18,813">Koyilandy , Kerala</option>
+
+<option value="18,803">Kozhikode , Kerala</option>
+<option value="18,817">Malappuram , Kerala</option>
+<option value="18,818">Mallappally , Kerala</option>
+<option value="18,822">Mannarkkad , Kerala</option>
+<option value="18,821">Mattancherry , Kerala</option>
+<option value="18,820">Mavelikara , Kerala</option>
+
+<option value="18,819">Muvattupuzha , Kerala</option>
+<option value="18,824">Nedumangad , Kerala</option>
+<option value="18,823">Neyyattinkara , Kerala</option>
+<option value="18,825">Ottappalam , Kerala</option>
+<option value="18,830">Palai , Kerala</option>
+<option value="18,827">Palakkad , Kerala</option>
+
+<option value="18,828">Parassala , Kerala</option>
+<option value="18,832">Paravur , Kerala</option>
+<option value="18,826">Pathanamthitta , Kerala</option>
+<option value="18,833">Pattambi , Kerala</option>
+<option value="18,834">Perinthalmanna , Kerala</option>
+<option value="18,831">Perumbavoor , Kerala</option>
+
+<option value="18,835">Ponnani , Kerala</option>
+<option value="18,829">Punalur , Kerala</option>
+<option value="18,844">Taliparamba , Kerala</option>
+<option value="18,843">Thalassery , Kerala</option>
+<option value="18,839">Thiruvalla , Kerala</option>
+<option value="18,838">Thiruvananthapuram , Kerala</option>
+
+<option value="18,840">Thodupuzha , Kerala</option>
+<option value="18,841">Thripunithura , Kerala</option>
+<option value="18,837">Thrissur , Kerala</option>
+<option value="18,842">Tirur , Kerala</option>
+<option value="18,846">Vaikom , Kerala</option>
+<option value="18,847">Vandiperiyar , Kerala</option>
+
+<option value="18,845">Vatakara , Kerala</option>
+<option value="18,849">Wadakkancherry , Kerala</option>
+<option value="18,848">Wayanad , Kerala</option>
+<option value="19,340">Amini , Lakshadeep</option>
+<option value="19,341">Kavaratti , Lakshadeep</option>
+<option value="19,342">Minicoy , Lakshadeep</option>
+
+<option value="20,367">Ambikapur , Madhya Pradesh</option>
+<option value="20,382">Badwani , Madhya Pradesh</option>
+<option value="20,386">Balaghat , Madhya Pradesh</option>
+<option value="20,384">Betul , Madhya Pradesh</option>
+<option value="20,369">Bhind , Madhya Pradesh</option>
+<option value="20,343">Bhopal , Madhya Pradesh</option>
+
+<option value="20,365">Bilaspur , Madhya Pradesh</option>
+<option value="20,355">Chhatarpur , Madhya Pradesh</option>
+<option value="20,362">Chhindwara , Madhya Pradesh</option>
+<option value="20,370">Damoh , Madhya Pradesh</option>
+<option value="20,366">Datia , Madhya Pradesh</option>
+<option value="20,377">Dewas , Madhya Pradesh</option>
+
+<option value="20,350">Dhar , Madhya Pradesh</option>
+<option value="20,388">Dindori , Madhya Pradesh</option>
+<option value="20,347">Guna , Madhya Pradesh</option>
+<option value="20,346">Gwalior , Madhya Pradesh</option>
+<option value="20,383">Harda , Madhya Pradesh</option>
+<option value="20,344">Hoshangabad , Madhya Pradesh</option>
+
+<option value="20,348">Indore , Madhya Pradesh</option>
+<option value="20,359">Jabalpur , Madhya Pradesh</option>
+<option value="20,363">Jagdalpur , Madhya Pradesh</option>
+<option value="20,381">Jhabua , Madhya Pradesh</option>
+<option value="20,360">Katni , Madhya Pradesh</option>
+<option value="20,351">Khandwa , Madhya Pradesh</option>
+
+<option value="20,349">Khargone , Madhya Pradesh</option>
+<option value="20,387">Mandla , Madhya Pradesh</option>
+<option value="20,353">Mandsaur , Madhya Pradesh</option>
+<option value="20,345">Morena , Madhya Pradesh</option>
+<option value="20,385">Narsinghpur , Madhya Pradesh</option>
+<option value="20,380">Neemuch , Madhya Pradesh</option>
+
+<option value="20,371">Panna , Madhya Pradesh</option>
+<option value="20,374">Raisen , Madhya Pradesh</option>
+<option value="20,375">Rajgarh , Madhya Pradesh</option>
+<option value="20,379">Ratlam , Madhya Pradesh</option>
+<option value="20,356">Rewa , Madhya Pradesh</option>
+<option value="20,354">Sagar , Madhya Pradesh</option>
+
+<option value="20,358">Satna , Madhya Pradesh</option>
+<option value="20,373">Sehore , Madhya Pradesh</option>
+<option value="20,361">Seoni , Madhya Pradesh</option>
+<option value="20,357">Shahdol , Madhya Pradesh</option>
+<option value="20,378">Shajapur , Madhya Pradesh</option>
+<option value="20,364">Sheopur , Madhya Pradesh</option>
+
+<option value="20,368">Shivpuri , Madhya Pradesh</option>
+<option value="20,389">Sidhi , Madhya Pradesh</option>
+<option value="20,372">Tikamgarh , Madhya Pradesh</option>
+<option value="20,352">Ujjain , Madhya Pradesh</option>
+<option value="20,390">Umariya , Madhya Pradesh</option>
+<option value="20,376">Vidisha , Madhya Pradesh</option>
+
+<option value="21,851">Ahmednagar , Maharashtra</option>
+<option value="21,856">Akluj , Maharashtra</option>
+<option value="21,854">Akola , Maharashtra</option>
+<option value="21,855">Ambejogai , Maharashtra</option>
+<option value="21,850">Ambernath , Maharashtra</option>
+<option value="21,853">Amravati , Maharashtra</option>
+
+<option value="21,852">Aurangabad , Maharashtra</option>
+<option value="21,857">Badlapur , Maharashtra</option>
+<option value="21,861">Baramati , Maharashtra</option>
+<option value="21,858">Beed , Maharashtra</option>
+<option value="21,860">Bhandara , Maharashtra</option>
+<option value="21,859">Buldana , Maharashtra</option>
+
+<option value="21,862">Chandrapur , Maharashtra</option>
+<option value="21,864">Dhule , Maharashtra</option>
+<option value="21,863">Dombivli , Maharashtra</option>
+<option value="21,866">Gadchiroli , Maharashtra</option>
+<option value="21,865">Ghatkopar , Maharashtra</option>
+<option value="21,867">Gondia , Maharashtra</option>
+
+<option value="21,868">Hingoli , Maharashtra</option>
+<option value="21,870">Jalgaon , Maharashtra</option>
+<option value="21,871">Jalna , Maharashtra</option>
+<option value="21,869">Junnare , Maharashtra</option>
+<option value="21,872">Kalyan , Maharashtra</option>
+<option value="21,874">Kolhapur , Maharashtra</option>
+
+<option value="21,873">Kudal , Maharashtra</option>
+<option value="21,875">Latur , Maharashtra</option>
+<option value="21,878">Malegaon , Maharashtra</option>
+<option value="21,877">mulund , Maharashtra</option>
+<option value="21,876">Mumbai , Maharashtra</option>
+<option value="21,881">Nagpur , Maharashtra</option>
+
+<option value="21,880">Nanded , Maharashtra</option>
+<option value="21,882">Nandurbar , Maharashtra</option>
+<option value="21,879">Nashik , Maharashtra</option>
+<option value="21,883">Navi Mumbai , Maharashtra</option>
+<option value="21,884">Osmanabad , Maharashtra</option>
+<option value="21,888">Parbhani , Maharashtra</option>
+
+<option value="21,885">Pen , Maharashtra</option>
+<option value="21,887">Pimpri-Chinchwad , Maharashtra</option>
+<option value="21,886">Pune , Maharashtra</option>
+<option value="21,889">Raigad , Maharashtra</option>
+<option value="21,890">Ratnagiri , Maharashtra</option>
+<option value="21,892">Sangli , Maharashtra</option>
+
+<option value="21,893">Satara , Maharashtra</option>
+<option value="21,894">Shrirampur , Maharashtra</option>
+<option value="21,891">Sindhudurg , Maharashtra</option>
+<option value="21,895">Solapur , Maharashtra</option>
+<option value="21,896">Thane , Maharashtra</option>
+<option value="21,897">Ulhasnagar , Maharashtra</option>
+
+<option value="21,898">vikroli , Maharashtra</option>
+<option value="21,899">Wadala , Maharashtra</option>
+<option value="21,902">Wadi , Maharashtra</option>
+<option value="21,900">Wardha , Maharashtra</option>
+<option value="21,901">Washim , Maharashtra</option>
+<option value="21,903">Yavatmal , Maharashtra</option>
+
+<option value="22,392">Churachandpur , Manipur</option>
+<option value="22,391">Imphal , Manipur</option>
+<option value="22,393">Kangpokpi , Manipur</option>
+<option value="22,394">Thoubal , Manipur</option>
+<option value="23,399">East Garo Hills , Meghalaya</option>
+<option value="23,397">East Khasi Hills , Meghalaya</option>
+
+<option value="23,396">Jaintia Hills , Meghalaya</option>
+<option value="23,402">Ri-Bhoi , Meghalaya</option>
+<option value="23,395">Shillong , Meghalaya</option>
+<option value="23,401">South Garo Hills , Meghalaya</option>
+<option value="23,400">West Garo Hills , Meghalaya</option>
+<option value="23,398">West Khasi Hills , Meghalaya</option>
+
+<option value="24,403">Aizawl , Mizoram</option>
+<option value="24,404">Kolasib , Mizoram</option>
+<option value="24,405">Lungleh , Mizoram</option>
+<option value="24,406">Saiha , Mizoram</option>
+<option value="25,413">Dimapur , Nagaland</option>
+<option value="25,407">Kohima , Nagaland</option>
+
+<option value="25,408">Mokokchung , Nagaland</option>
+<option value="25,410">Mon , Nagaland</option>
+<option value="25,409">Tuensang , Nagaland</option>
+<option value="25,411">Wokha , Nagaland</option>
+<option value="25,412">Zunheboto , Nagaland</option>
+<option value="26,414">Angul , Orissa</option>
+
+<option value="26,415">Balasore , Orissa</option>
+<option value="26,416">Baragarh , Orissa</option>
+<option value="26,417">Bhadrak , Orissa</option>
+<option value="26,418">Bhubaneshwar , Orissa</option>
+<option value="26,419">Bolangir , Orissa</option>
+<option value="26,420">Chandikhole , Orissa</option>
+
+<option value="26,421">Cuttack , Orissa</option>
+<option value="26,422">Dhenkanal , Orissa</option>
+<option value="26,424">Gajapati , Orissa</option>
+<option value="26,423">Ganjam , Orissa</option>
+<option value="26,425">Jagatsinghpur , Orissa</option>
+<option value="26,426">Jharsuguda , Orissa</option>
+
+<option value="26,427">Kalahandi , Orissa</option>
+<option value="26,428">Keonjhar , Orissa</option>
+<option value="26,429">Koraput , Orissa</option>
+<option value="26,430">Mayurbhanj , Orissa</option>
+<option value="26,431">Nabarangpur , Orissa</option>
+<option value="26,432">Nayagarh , Orissa</option>
+
+<option value="26,433">Nuapada , Orissa</option>
+<option value="26,434">Phulbani , Orissa</option>
+<option value="26,435">Puri , Orissa</option>
+<option value="26,437">Rayagada , Orissa</option>
+<option value="26,436">Rourkela , Orissa</option>
+<option value="26,438">Sambalpur , Orissa</option>
+
+<option value="26,439">Sundergarh , Orissa</option>
+<option value="27,441">Karaikal , Pondicherry</option>
+<option value="27,442">Mahe , Pondicherry</option>
+<option value="27,440">Puducherry , Pondicherry</option>
+<option value="27,443">Yanam , Pondicherry</option>
+<option value="28,447">Abohar , Punjab</option>
+
+<option value="28,445">Ajnala , Punjab</option>
+<option value="28,446">Amloh , Punjab</option>
+<option value="28,444">Amritsar , Punjab</option>
+<option value="28,448">Anandpur Sahib , Punjab</option>
+<option value="28,449">Baba Bakala , Punjab</option>
+<option value="28,454">Bagha Purana , Punjab</option>
+
+<option value="28,453">Balachaur , Punjab</option>
+<option value="28,455">Barnala , Punjab</option>
+<option value="28,452">Bassi Pathana , Punjab</option>
+<option value="28,457">Batala , Punjab</option>
+<option value="28,450">Bathinda , Punjab</option>
+<option value="28,456">Bhulath , Punjab</option>
+
+<option value="28,451">Budhlada , Punjab</option>
+<option value="28,458">Chamkaur Sahib , Punjab</option>
+<option value="28,459">Dasua , Punjab</option>
+<option value="28,460">Dera Baba Nanak , Punjab</option>
+<option value="28,461">Dera Bassi , Punjab</option>
+<option value="28,463">Dhar , Punjab</option>
+
+<option value="28,462">Dhuri , Punjab</option>
+<option value="28,464">Faridkot , Punjab</option>
+<option value="28,466">Fatehgarh Sahib , Punjab</option>
+<option value="28,465">Fazilka , Punjab</option>
+<option value="28,467">Ferozepur , Punjab</option>
+<option value="28,469">Garhshankar , Punjab</option>
+
+<option value="28,470">Gidderbaha , Punjab</option>
+<option value="28,468">Gurdaspur , Punjab</option>
+<option value="28,471">Hoshiarpur , Punjab</option>
+<option value="28,473">Jagraon , Punjab</option>
+<option value="28,474">Jaitu , Punjab</option>
+<option value="28,475">Jalalabad , Punjab</option>
+
+<option value="28,472">Jalandhar , Punjab</option>
+<option value="28,476">Jhunir , Punjab</option>
+<option value="28,477">Kapurthala , Punjab</option>
+<option value="28,478">Khadoor Sahib , Punjab</option>
+<option value="28,480">Khamono , Punjab</option>
+<option value="28,479">Khanna , Punjab</option>
+
+<option value="28,481">Kharar , Punjab</option>
+<option value="28,483">Lehra , Punjab</option>
+<option value="28,482">Ludhiana , Punjab</option>
+<option value="28,486">Malerkotla , Punjab</option>
+<option value="28,485">Malout , Punjab</option>
+<option value="28,487">Mansa , Punjab</option>
+
+<option value="28,489">Moga , Punjab</option>
+<option value="28,484">Mohali , Punjab</option>
+<option value="28,491">Moonak , Punjab</option>
+<option value="28,490">Mukerian , Punjab</option>
+<option value="28,488">Muktsar , Punjab</option>
+<option value="28,494">Nabha , Punjab</option>
+
+<option value="28,496">Nakodar , Punjab</option>
+<option value="28,495">Nangal , Punjab</option>
+<option value="28,492">Nawanshahr , Punjab</option>
+<option value="28,493">Nihal Singh Wala , Punjab</option>
+<option value="28,500">Pathankot , Punjab</option>
+<option value="28,497">Patiala , Punjab</option>
+
+<option value="28,498">Patran , Punjab</option>
+<option value="28,502">Patti , Punjab</option>
+<option value="28,499">Payal , Punjab</option>
+<option value="28,501">Phagwara , Punjab</option>
+<option value="28,503">Phillaur , Punjab</option>
+<option value="28,506">Raikot , Punjab</option>
+
+<option value="28,505">Rajpura , Punjab</option>
+<option value="28,507">Rampura Phul , Punjab</option>
+<option value="28,504">Ropar , Punjab</option>
+<option value="28,512">Samana , Punjab</option>
+<option value="28,513">Samrala , Punjab</option>
+<option value="28,508">Sangrur , Punjab</option>
+
+<option value="28,510">Sardulgarh , Punjab</option>
+<option value="28,511">Shahkot , Punjab</option>
+<option value="28,509">Sultanpur Lodhi , Punjab</option>
+<option value="28,514">Sunam , Punjab</option>
+<option value="28,515">Talwandi Sabo , Punjab</option>
+<option value="28,516">Tappa Mandi , Punjab</option>
+
+<option value="28,517">Tarn Taran , Punjab</option>
+<option value="28,518">Zira , Punjab</option>
+<option value="29,519">Ajmer , Rajasthan</option>
+<option value="29,520">Alwar , Rajasthan</option>
+<option value="29,521">Banswara , Rajasthan</option>
+<option value="29,523">Baran , Rajasthan</option>
+
+<option value="29,522">Barmer , Rajasthan</option>
+<option value="29,527">Beawar , Rajasthan</option>
+<option value="29,524">Bharatpur , Rajasthan</option>
+<option value="29,525">Bhilwara , Rajasthan</option>
+<option value="29,910">Bhiwadi , Rajasthan</option>
+<option value="29,526">Bikaner , Rajasthan</option>
+
+<option value="29,528">Bundi , Rajasthan</option>
+<option value="29,529">Chittaurgarh , Rajasthan</option>
+<option value="29,530">Churu , Rajasthan</option>
+<option value="29,532">Dausa , Rajasthan</option>
+<option value="29,531">Dholpur , Rajasthan</option>
+<option value="29,533">Didwana , Rajasthan</option>
+
+<option value="29,534">Dungarpur , Rajasthan</option>
+<option value="29,536">Hanumangarh , Rajasthan</option>
+<option value="29,537">Jaipur , Rajasthan</option>
+<option value="29,538">Jaisalmer , Rajasthan</option>
+<option value="29,539">Jalore , Rajasthan</option>
+<option value="29,540">Jhalawar , Rajasthan</option>
+
+<option value="29,541">Jhunjhunu , Rajasthan</option>
+<option value="29,542">Jodhpur , Rajasthan</option>
+<option value="29,545">Karauli , Rajasthan</option>
+<option value="29,543">Kota , Rajasthan</option>
+<option value="29,544">Kotputli , Rajasthan</option>
+<option value="29,546">Nagaur , Rajasthan</option>
+
+<option value="29,547">Pali , Rajasthan</option>
+<option value="29,548">Pratapgarh , Rajasthan</option>
+<option value="29,549">Rajsamand , Rajasthan</option>
+<option value="29,551">Ramganj Mandi , Rajasthan</option>
+<option value="29,550">Rawatbhata , Rajasthan</option>
+<option value="29,554">Sawai Madhopur , Rajasthan</option>
+
+<option value="29,552">Sikar , Rajasthan</option>
+<option value="29,553">Sirohi , Rajasthan</option>
+<option value="29,535">Sri Ganganagar , Rajasthan</option>
+<option value="29,555">Tonk , Rajasthan</option>
+<option value="29,556">Udaipur , Rajasthan</option>
+<option value="30,557">East Sikkim , Sikkim</option>
+
+<option value="30,558">Gangtok , Sikkim</option>
+<option value="30,559">Gyalsing , Sikkim</option>
+<option value="30,560">Jorethang , Sikkim</option>
+<option value="30,561">Mangan , Sikkim</option>
+<option value="30,562">Namchi , Sikkim</option>
+<option value="30,563">Singtam , Sikkim</option>
+
+<option value="30,564">Tadong , Sikkim</option>
+<option value="30,565">Tarku , Sikkim</option>
+<option value="31,690">Ariyalur , Tamil Nadu</option>
+<option value="31,692">Chengalpattu , Tamil Nadu</option>
+<option value="31,691">Chennai , Tamil Nadu</option>
+<option value="31,694">Coimbatore , Tamil Nadu</option>
+
+<option value="31,693">Cuddalore , Tamil Nadu</option>
+<option value="31,695">Dharmapuri , Tamil Nadu</option>
+<option value="31,696">Dindigul , Tamil Nadu</option>
+<option value="31,697">Erode , Tamil Nadu</option>
+<option value="31,698">Gobichettipalayam , Tamil Nadu</option>
+<option value="31,699">Hosur , Tamil Nadu</option>
+
+<option value="31,700">Kanchipuram , Tamil Nadu</option>
+<option value="31,703">Karur , Tamil Nadu</option>
+<option value="31,701">Krishnagiri , Tamil Nadu</option>
+<option value="31,702">Kumbakonam , Tamil Nadu</option>
+<option value="31,707">Madurai , Tamil Nadu</option>
+<option value="31,706">Mannargudi , Tamil Nadu</option>
+
+<option value="31,708">Marthandam , Tamil Nadu</option>
+<option value="31,704">Meenambakkam , Tamil Nadu</option>
+<option value="31,705">Mettupalayam , Tamil Nadu</option>
+<option value="31,710">Nagapattinam , Tamil Nadu</option>
+<option value="31,711">Nagercoil , Tamil Nadu</option>
+<option value="31,709">Namakkal , Tamil Nadu</option>
+
+<option value="31,714">Perambalur , Tamil Nadu</option>
+<option value="31,716">Periyakulam , Tamil Nadu</option>
+<option value="31,715">Perundurai , Tamil Nadu</option>
+<option value="31,712">Pollachi , Tamil Nadu</option>
+<option value="31,713">Pudukottai , Tamil Nadu</option>
+<option value="31,718">Ramanathapuram , Tamil Nadu</option>
+
+<option value="31,717">Red Hills , Tamil Nadu</option>
+<option value="31,719">Salem Central , Tamil Nadu</option>
+<option value="31,723">Salem East , Tamil Nadu</option>
+<option value="31,720">Salem West , Tamil Nadu</option>
+<option value="31,722">Sankagiri , Tamil Nadu</option>
+<option value="31,724">Sivagangai , Tamil Nadu</option>
+
+<option value="31,721">Sri Rangam , Tamil Nadu</option>
+<option value="31,733">Tenkasi , Tamil Nadu</option>
+<option value="31,730">Thanjavur , Tamil Nadu</option>
+<option value="31,728">Thiruchengode , Tamil Nadu</option>
+<option value="31,727">Thiruvannamalai , Tamil Nadu</option>
+<option value="31,729">Tiruchirapalli , Tamil Nadu</option>
+
+<option value="31,732">Tirunelveli , Tamil Nadu</option>
+<option value="31,726">Tiruppur , Tamil Nadu</option>
+<option value="31,725">Tiruvallur , Tamil Nadu</option>
+<option value="31,731">Tuticorin , Tamil Nadu</option>
+<option value="31,734">Udumalpet , Tamil Nadu</option>
+<option value="31,735">Uthagamandalam , Tamil Nadu</option>
+
+<option value="31,736">Vellore , Tamil Nadu</option>
+<option value="31,737">VillupuramUlundurpet , Tamil Nadu</option>
+<option value="31,738">Virudhunagar , Tamil Nadu</option>
+<option value="32,566">Agartala , Tripura</option>
+<option value="32,567">Dhalai , Tripura</option>
+<option value="32,568">Dharmanagar , Tripura</option>
+
+<option value="32,569">Kailashahar , Tripura</option>
+<option value="32,570">Khowai , Tripura</option>
+<option value="32,571">Radhakishorpur , Tripura</option>
+<option value="32,572">Teliamura , Tripura</option>
+<option value="32,573">Udaipur (TR) , Tripura</option>
+<option value="33,575">Agra , Uttar Pradesh</option>
+
+<option value="33,576">Aligarh , Uttar Pradesh</option>
+<option value="33,578">Allahabad , Uttar Pradesh</option>
+<option value="33,577">Ambedkar Nagar , Uttar Pradesh</option>
+<option value="33,574">Auraiya , Uttar Pradesh</option>
+<option value="33,579">Azamgarh , Uttar Pradesh</option>
+<option value="33,585">Badaun , Uttar Pradesh</option>
+
+<option value="33,588">Baghpat , Uttar Pradesh</option>
+<option value="33,589">Bahraich , Uttar Pradesh</option>
+<option value="33,582">Ballia , Uttar Pradesh</option>
+<option value="33,581">Balrampur , Uttar Pradesh</option>
+<option value="33,591">Banda , Uttar Pradesh</option>
+<option value="33,590">Barabanki , Uttar Pradesh</option>
+
+<option value="33,586">Bareilly , Uttar Pradesh</option>
+<option value="33,583">Basti , Uttar Pradesh</option>
+<option value="33,584">Bhadohi , Uttar Pradesh</option>
+<option value="33,580">Bijnor , Uttar Pradesh</option>
+<option value="33,587">Bulandshahr , Uttar Pradesh</option>
+<option value="33,592">Chandauli , Uttar Pradesh</option>
+
+<option value="33,593">Chitrakoot Dham , Uttar Pradesh</option>
+<option value="33,594">Deoria , Uttar Pradesh</option>
+<option value="33,596">Etah , Uttar Pradesh</option>
+<option value="33,595">Etawah , Uttar Pradesh</option>
+<option value="33,597">Faizabad , Uttar Pradesh</option>
+<option value="33,599">Farrukhabad , Uttar Pradesh</option>
+
+<option value="33,598">Fatehpur , Uttar Pradesh</option>
+<option value="33,600">Firozabad , Uttar Pradesh</option>
+<option value="33,606">Gautam Buddha Nagar , Uttar Pradesh</option>
+<option value="33,601">Ghaziabad , Uttar Pradesh</option>
+<option value="33,604">Ghazipur , Uttar Pradesh</option>
+<option value="33,602">Gonda , Uttar Pradesh</option>
+
+<option value="33,603">Gorakhpur , Uttar Pradesh</option>
+<option value="33,605">Greater Noida , Uttar Pradesh</option>
+<option value="33,609">Hamirpur , Uttar Pradesh</option>
+<option value="33,607">Hardoi , Uttar Pradesh</option>
+<option value="33,608">Hathras , Uttar Pradesh</option>
+<option value="33,612">Jalaun , Uttar Pradesh</option>
+
+<option value="33,611">Jaunpur , Uttar Pradesh</option>
+<option value="33,613">Jhansi , Uttar Pradesh</option>
+<option value="33,610">Jyotiba Phule Nagar , Uttar Pradesh</option>
+<option value="33,617">Kannauj , Uttar Pradesh</option>
+<option value="33,615">Kanpur , Uttar Pradesh</option>
+<option value="33,618">Kanshiram Nagar , Uttar Pradesh</option>
+
+<option value="33,616">Kaushambi , Uttar Pradesh</option>
+<option value="33,614">Kheri , Uttar Pradesh</option>
+<option value="33,619">Lakhimpur , Uttar Pradesh</option>
+<option value="33,621">Lalitpur , Uttar Pradesh</option>
+<option value="33,620">Lucknow , Uttar Pradesh</option>
+<option value="33,630">Mahamaya Nagar , Uttar Pradesh</option>
+
+<option value="33,631">Mahoba , Uttar Pradesh</option>
+<option value="33,626">Mahrajganj , Uttar Pradesh</option>
+<option value="33,628">Mainpuri , Uttar Pradesh</option>
+<option value="33,629">Mathura , Uttar Pradesh</option>
+<option value="33,625">Mau , Uttar Pradesh</option>
+<option value="33,622">Meerut , Uttar Pradesh</option>
+
+<option value="33,627">Mirzapur , Uttar Pradesh</option>
+<option value="33,909">Modinagar , Uttar Pradesh</option>
+<option value="33,623">Muradabad , Uttar Pradesh</option>
+<option value="33,624">Muzaffarnagar , Uttar Pradesh</option>
+<option value="33,632">NOIDA , Uttar Pradesh</option>
+<option value="33,634">Padrauna , Uttar Pradesh</option>
+
+<option value="33,633">Pilibhit , Uttar Pradesh</option>
+<option value="33,635">Pratapgarh , Uttar Pradesh</option>
+<option value="33,637">Raebareli , Uttar Pradesh</option>
+<option value="33,907">Raipur , Uttar Pradesh</option>
+<option value="33,636">Rampur , Uttar Pradesh</option>
+<option value="33,638">Saharanpur , Uttar Pradesh</option>
+
+<option value="33,641">Shahjahanpur , Uttar Pradesh</option>
+<option value="33,642">Shrawasti , Uttar Pradesh</option>
+<option value="33,643">Siddharth Nagar , Uttar Pradesh</option>
+<option value="33,640">Sitapur , Uttar Pradesh</option>
+<option value="33,644">Sonbhadra , Uttar Pradesh</option>
+<option value="33,639">Sultanpur , Uttar Pradesh</option>
+
+<option value="33,645">Unnao , Uttar Pradesh</option>
+<option value="33,646">Varanasi , Uttar Pradesh</option>
+<option value="34,647">Almora , Uttarakhand</option>
+<option value="34,648">Bageshwar , Uttarakhand</option>
+<option value="34,658">Chamoli , Uttarakhand</option>
+<option value="34,649">Champawat , Uttarakhand</option>
+
+<option value="34,653">Dehradun , Uttarakhand</option>
+<option value="34,655">Haldwani , Uttarakhand</option>
+<option value="34,654">Haridwar , Uttarakhand</option>
+<option value="34,660">Kathgodam , Uttarakhand</option>
+<option value="34,650">Nainital , Uttarakhand</option>
+<option value="34,651">Pithoragarh , Uttarakhand</option>
+
+<option value="34,661">Ramnagar , Uttarakhand</option>
+<option value="34,662">Ranikhet , Uttarakhand</option>
+<option value="34,663">Rishikesh , Uttarakhand</option>
+<option value="34,664">Roorkee , Uttarakhand</option>
+<option value="34,659">Rudraprayag , Uttarakhand</option>
+<option value="34,656">Tehri , Uttarakhand</option>
+
+<option value="34,652">Udham Singh Nagar , Uttarakhand</option>
+<option value="34,657">Uttarkashi , Uttarakhand</option>
+<option value="35,666">Alipurduar , West Bengal</option>
+<option value="35,665">Asansol , West Bengal</option>
+<option value="35,671">Balurghat , West Bengal</option>
+<option value="35,672">Bankura , West Bengal</option>
+
+<option value="35,669">Barasat , West Bengal</option>
+<option value="35,667">Barrackpore , West Bengal</option>
+<option value="35,670">Birbhum , West Bengal</option>
+<option value="35,668">Burdwan , West Bengal</option>
+<option value="35,673">Contai , West Bengal</option>
+<option value="35,674">Cooch Behar , West Bengal</option>
+
+<option value="35,676">Darjeeling , West Bengal</option>
+<option value="35,675">Durgapur , West Bengal</option>
+<option value="35,678">Hooghly , West Bengal</option>
+<option value="35,677">Howrah , West Bengal</option>
+<option value="35,679">Jalpaiguri , West Bengal</option>
+<option value="35,681">Kalimpong , West Bengal</option>
+
+<option value="35,680">Kolkata , West Bengal</option>
+<option value="35,683">Malda , West Bengal</option>
+<option value="35,682">Midnapur , West Bengal</option>
+<option value="35,684">Murshidabad , West Bengal</option>
+<option value="35,685">Nadia , West Bengal</option>
+<option value="35,686">Purulia , West Bengal</option>
+
+<option value="35,687">Raiganj , West Bengal</option>
+<option value="35,688">Siliguri , West Bengal</option>
+<option value="35,689">Tamluk , West Bengal</option>
+
+
+</select>
+
+
+</td>
+
+</tr>
+<tr>
+    <td colspan="4" style="padding-top:20px"><div style="border-top:2px solid rgba(0, 0, 0, 0.10) ">
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox" value="option1"> By clicking, I agree that I have read, understood and agree to the Privacy Policy and User Agreement provided. I would like to be contacted via phone and/or email for my requirements by InsuringIndia.com, its associates and Service Providers
+        </label>
+    </div></td>
+</tr>
+</table>
+
+</div>
+
+<div class="row" style="padding-top:20px">
+    <button type="submit" class="btn btn-default">Get Quotes <span style="font-size:10">>></span></button>
+</div>
+
+</div>
+<div class="col-md-1" style="inset:-1px 1px 1px #444;"></div>
+</div>
+<div class="panel-footer" style="background-color:rgba(0, 0, 0, 0.18);padding-top:10px">
+    <ul><li>   Copyright 2014 InsuringIndia.com and Great Indian Marketing & Consulting Services Pvt. Ltd.. All rights reserved
+    </li></ul>
+
+</div>
+</div>
+
+</body>
+</html>
